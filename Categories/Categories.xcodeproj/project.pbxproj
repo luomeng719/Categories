@@ -16,6 +16,8 @@
 		6CBD18A61BE8B4CF00D2BCB0 /* UIImage+TintColor.m in Sources */ = {isa = PBXBuildFile; fileRef = 6CBD18A51BE8B4CF00D2BCB0 /* UIImage+TintColor.m */; };
 		6CBD18A81BE8B5CB00D2BCB0 /* image.png in Resources */ = {isa = PBXBuildFile; fileRef = 6CBD18A71BE8B5CB00D2BCB0 /* image.png */; };
 		6CBD18AE1BE8B6FD00D2BCB0 /* UIImage+Utils.m in Sources */ = {isa = PBXBuildFile; fileRef = 6CBD18AD1BE8B6FD00D2BCB0 /* UIImage+Utils.m */; };
+		6CBD18B11BE8B83B00D2BCB0 /* UIView+CustomBorder.m in Sources */ = {isa = PBXBuildFile; fileRef = 6CBD18B01BE8B83B00D2BCB0 /* UIView+CustomBorder.m */; };
+		6CBD18B41BE8BC7800D2BCB0 /* UIView+AutoLayout.m in Sources */ = {isa = PBXBuildFile; fileRef = 6CBD18B31BE8BC7800D2BCB0 /* UIView+AutoLayout.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -34,6 +36,10 @@
 		6CBD18A71BE8B5CB00D2BCB0 /* image.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = image.png; sourceTree = "<group>"; };
 		6CBD18AC1BE8B6FD00D2BCB0 /* UIImage+Utils.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImage+Utils.h"; sourceTree = "<group>"; };
 		6CBD18AD1BE8B6FD00D2BCB0 /* UIImage+Utils.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImage+Utils.m"; sourceTree = "<group>"; };
+		6CBD18AF1BE8B83B00D2BCB0 /* UIView+CustomBorder.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+CustomBorder.h"; sourceTree = "<group>"; };
+		6CBD18B01BE8B83B00D2BCB0 /* UIView+CustomBorder.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+CustomBorder.m"; sourceTree = "<group>"; };
+		6CBD18B21BE8BC7800D2BCB0 /* UIView+AutoLayout.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+AutoLayout.h"; sourceTree = "<group>"; };
+		6CBD18B31BE8BC7800D2BCB0 /* UIView+AutoLayout.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+AutoLayout.m"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -66,6 +72,7 @@
 		6CBD188B1BE8B45300D2BCB0 /* Categories */ = {
 			isa = PBXGroup;
 			children = (
+				6CBD18B51BE8C73B00D2BCB0 /* SupportFiles */,
 				6CBD18A31BE8B48300D2BCB0 /* Categories */,
 				6CBD188F1BE8B45300D2BCB0 /* AppDelegate.h */,
 				6CBD18901BE8B45300D2BCB0 /* AppDelegate.m */,
@@ -73,7 +80,6 @@
 				6CBD18931BE8B45300D2BCB0 /* ViewController.m */,
 				6CBD18951BE8B45300D2BCB0 /* Main.storyboard */,
 				6CBD18981BE8B45300D2BCB0 /* Assets.xcassets */,
-				6CBD18A71BE8B5CB00D2BCB0 /* image.png */,
 				6CBD189A1BE8B45300D2BCB0 /* LaunchScreen.storyboard */,
 				6CBD189D1BE8B45300D2BCB0 /* Info.plist */,
 				6CBD188C1BE8B45300D2BCB0 /* Supporting Files */,
@@ -96,8 +102,21 @@
 				6CBD18A51BE8B4CF00D2BCB0 /* UIImage+TintColor.m */,
 				6CBD18AC1BE8B6FD00D2BCB0 /* UIImage+Utils.h */,
 				6CBD18AD1BE8B6FD00D2BCB0 /* UIImage+Utils.m */,
+				6CBD18AF1BE8B83B00D2BCB0 /* UIView+CustomBorder.h */,
+				6CBD18B01BE8B83B00D2BCB0 /* UIView+CustomBorder.m */,
 			);
 			path = Categories;
+			sourceTree = "<group>";
+		};
+		6CBD18B51BE8C73B00D2BCB0 /* SupportFiles */ = {
+			isa = PBXGroup;
+			children = (
+				6CBD18A71BE8B5CB00D2BCB0 /* image.png */,
+				6CBD18B21BE8BC7800D2BCB0 /* UIView+AutoLayout.h */,
+				6CBD18B31BE8BC7800D2BCB0 /* UIView+AutoLayout.m */,
+			);
+			name = SupportFiles;
+			path = TestSupportFiles;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -174,7 +193,9 @@
 				6CBD18A61BE8B4CF00D2BCB0 /* UIImage+TintColor.m in Sources */,
 				6CBD18941BE8B45300D2BCB0 /* ViewController.m in Sources */,
 				6CBD18911BE8B45300D2BCB0 /* AppDelegate.m in Sources */,
+				6CBD18B11BE8B83B00D2BCB0 /* UIView+CustomBorder.m in Sources */,
 				6CBD188E1BE8B45300D2BCB0 /* main.m in Sources */,
+				6CBD18B41BE8BC7800D2BCB0 /* UIView+AutoLayout.m in Sources */,
 				6CBD18AE1BE8B6FD00D2BCB0 /* UIImage+Utils.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
