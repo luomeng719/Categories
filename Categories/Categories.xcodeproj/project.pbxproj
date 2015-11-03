@@ -19,6 +19,7 @@
 		6CBD18B11BE8B83B00D2BCB0 /* UIView+CustomBorder.m in Sources */ = {isa = PBXBuildFile; fileRef = 6CBD18B01BE8B83B00D2BCB0 /* UIView+CustomBorder.m */; };
 		6CBD18B41BE8BC7800D2BCB0 /* UIView+AutoLayout.m in Sources */ = {isa = PBXBuildFile; fileRef = 6CBD18B31BE8BC7800D2BCB0 /* UIView+AutoLayout.m */; };
 		6CBD18B81BE8C8D800D2BCB0 /* UIBarButtonItem+Custom.m in Sources */ = {isa = PBXBuildFile; fileRef = 6CBD18B71BE8C8D800D2BCB0 /* UIBarButtonItem+Custom.m */; };
+		6CBD18BB1BE8C96A00D2BCB0 /* NSObject+MKBlockTimer.m in Sources */ = {isa = PBXBuildFile; fileRef = 6CBD18BA1BE8C96A00D2BCB0 /* NSObject+MKBlockTimer.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -43,6 +44,8 @@
 		6CBD18B31BE8BC7800D2BCB0 /* UIView+AutoLayout.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+AutoLayout.m"; sourceTree = "<group>"; };
 		6CBD18B61BE8C8D800D2BCB0 /* UIBarButtonItem+Custom.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIBarButtonItem+Custom.h"; sourceTree = "<group>"; };
 		6CBD18B71BE8C8D800D2BCB0 /* UIBarButtonItem+Custom.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIBarButtonItem+Custom.m"; sourceTree = "<group>"; };
+		6CBD18B91BE8C96A00D2BCB0 /* NSObject+MKBlockTimer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSObject+MKBlockTimer.h"; sourceTree = "<group>"; };
+		6CBD18BA1BE8C96A00D2BCB0 /* NSObject+MKBlockTimer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSObject+MKBlockTimer.m"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -109,6 +112,8 @@
 				6CBD18B01BE8B83B00D2BCB0 /* UIView+CustomBorder.m */,
 				6CBD18B61BE8C8D800D2BCB0 /* UIBarButtonItem+Custom.h */,
 				6CBD18B71BE8C8D800D2BCB0 /* UIBarButtonItem+Custom.m */,
+				6CBD18B91BE8C96A00D2BCB0 /* NSObject+MKBlockTimer.h */,
+				6CBD18BA1BE8C96A00D2BCB0 /* NSObject+MKBlockTimer.m */,
 			);
 			path = Categories;
 			sourceTree = "<group>";
@@ -201,6 +206,7 @@
 				6CBD18B11BE8B83B00D2BCB0 /* UIView+CustomBorder.m in Sources */,
 				6CBD188E1BE8B45300D2BCB0 /* main.m in Sources */,
 				6CBD18B41BE8BC7800D2BCB0 /* UIView+AutoLayout.m in Sources */,
+				6CBD18BB1BE8C96A00D2BCB0 /* NSObject+MKBlockTimer.m in Sources */,
 				6CBD18AE1BE8B6FD00D2BCB0 /* UIImage+Utils.m in Sources */,
 				6CBD18B81BE8C8D800D2BCB0 /* UIBarButtonItem+Custom.m in Sources */,
 			);
