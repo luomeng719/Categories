@@ -15,6 +15,7 @@
 		6CBD189C1BE8B45300D2BCB0 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6CBD189A1BE8B45300D2BCB0 /* LaunchScreen.storyboard */; };
 		6CBD18A61BE8B4CF00D2BCB0 /* UIImage+TintColor.m in Sources */ = {isa = PBXBuildFile; fileRef = 6CBD18A51BE8B4CF00D2BCB0 /* UIImage+TintColor.m */; };
 		6CBD18A81BE8B5CB00D2BCB0 /* image.png in Resources */ = {isa = PBXBuildFile; fileRef = 6CBD18A71BE8B5CB00D2BCB0 /* image.png */; };
+		6CBD18AE1BE8B6FD00D2BCB0 /* UIImage+Utils.m in Sources */ = {isa = PBXBuildFile; fileRef = 6CBD18AD1BE8B6FD00D2BCB0 /* UIImage+Utils.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -31,6 +32,8 @@
 		6CBD18A41BE8B4CF00D2BCB0 /* UIImage+TintColor.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImage+TintColor.h"; sourceTree = "<group>"; };
 		6CBD18A51BE8B4CF00D2BCB0 /* UIImage+TintColor.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImage+TintColor.m"; sourceTree = "<group>"; };
 		6CBD18A71BE8B5CB00D2BCB0 /* image.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = image.png; sourceTree = "<group>"; };
+		6CBD18AC1BE8B6FD00D2BCB0 /* UIImage+Utils.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImage+Utils.h"; sourceTree = "<group>"; };
+		6CBD18AD1BE8B6FD00D2BCB0 /* UIImage+Utils.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImage+Utils.m"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -91,6 +94,8 @@
 			children = (
 				6CBD18A41BE8B4CF00D2BCB0 /* UIImage+TintColor.h */,
 				6CBD18A51BE8B4CF00D2BCB0 /* UIImage+TintColor.m */,
+				6CBD18AC1BE8B6FD00D2BCB0 /* UIImage+Utils.h */,
+				6CBD18AD1BE8B6FD00D2BCB0 /* UIImage+Utils.m */,
 			);
 			path = Categories;
 			sourceTree = "<group>";
@@ -170,6 +175,7 @@
 				6CBD18941BE8B45300D2BCB0 /* ViewController.m in Sources */,
 				6CBD18911BE8B45300D2BCB0 /* AppDelegate.m in Sources */,
 				6CBD188E1BE8B45300D2BCB0 /* main.m in Sources */,
+				6CBD18AE1BE8B6FD00D2BCB0 /* UIImage+Utils.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
