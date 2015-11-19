@@ -20,6 +20,11 @@
 
 - (void)viewDidLoad {
     [super viewDidLoad];
+    
+    CGFloat value = AdaptIPad_IPhone4_5_6_6PLUS(100, 200, 300, 400, 500);
+    CGFloat val = AdaptIPad_IPhone4And5_6_6Plus(100, 200, 300, 400);
+    DebugLog(@"value = %f, val = %f", value, val);
+    
     // Do any additional setup after loading the view, typically from a nib.
     self.view.backgroundColor = [UIColor cyanColor];
     

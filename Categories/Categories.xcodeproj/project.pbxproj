@@ -24,6 +24,7 @@
 		6CCCEF2D1BFD5A4400E6F5B6 /* DXAlertView.m in Sources */ = {isa = PBXBuildFile; fileRef = 6CCCEF251BFD5A4400E6F5B6 /* DXAlertView.m */; };
 		6CCCEF2F1BFD5A4400E6F5B6 /* UIImageView+Letters.m in Sources */ = {isa = PBXBuildFile; fileRef = 6CCCEF291BFD5A4400E6F5B6 /* UIImageView+Letters.m */; };
 		6CCCEF301BFD5A4400E6F5B6 /* UIScrollView+DXRefresh.m in Sources */ = {isa = PBXBuildFile; fileRef = 6CCCEF2B1BFD5A4400E6F5B6 /* UIScrollView+DXRefresh.m */; };
+		6CCCEF401BFD763D00E6F5B6 /* LMConstant.m in Sources */ = {isa = PBXBuildFile; fileRef = 6CCCEF3F1BFD763D00E6F5B6 /* LMConstant.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -58,6 +59,9 @@
 		6CCCEF291BFD5A4400E6F5B6 /* UIImageView+Letters.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImageView+Letters.m"; sourceTree = "<group>"; };
 		6CCCEF2A1BFD5A4400E6F5B6 /* UIScrollView+DXRefresh.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIScrollView+DXRefresh.h"; sourceTree = "<group>"; };
 		6CCCEF2B1BFD5A4400E6F5B6 /* UIScrollView+DXRefresh.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIScrollView+DXRefresh.m"; sourceTree = "<group>"; };
+		6CCCEF3B1BFD731200E6F5B6 /* PrefixHeader.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PrefixHeader.pch; sourceTree = "<group>"; };
+		6CCCEF3E1BFD763D00E6F5B6 /* LMConstant.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LMConstant.h; sourceTree = "<group>"; };
+		6CCCEF3F1BFD763D00E6F5B6 /* LMConstant.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LMConstant.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -92,6 +96,9 @@
 			children = (
 				6CBD18B51BE8C73B00D2BCB0 /* SupportFiles */,
 				6CBD18A31BE8B48300D2BCB0 /* Categories */,
+				6CCCEF3B1BFD731200E6F5B6 /* PrefixHeader.pch */,
+				6CCCEF3E1BFD763D00E6F5B6 /* LMConstant.h */,
+				6CCCEF3F1BFD763D00E6F5B6 /* LMConstant.m */,
 				6CBD188F1BE8B45300D2BCB0 /* AppDelegate.h */,
 				6CBD18901BE8B45300D2BCB0 /* AppDelegate.m */,
 				6CBD18921BE8B45300D2BCB0 /* ViewController.h */,
@@ -228,6 +235,7 @@
 				6CCCEF2D1BFD5A4400E6F5B6 /* DXAlertView.m in Sources */,
 				6CCCEF2C1BFD5A4400E6F5B6 /* ALAssetsLibrary+CustomPhotoAlbum.m in Sources */,
 				6CCCEF2F1BFD5A4400E6F5B6 /* UIImageView+Letters.m in Sources */,
+				6CCCEF401BFD763D00E6F5B6 /* LMConstant.m in Sources */,
 				6CBD18B41BE8BC7800D2BCB0 /* UIView+AutoLayout.m in Sources */,
 				6CCCEF301BFD5A4400E6F5B6 /* UIScrollView+DXRefresh.m in Sources */,
 				6CBD18BB1BE8C96A00D2BCB0 /* NSObject+MKBlockTimer.m in Sources */,
@@ -342,10 +350,13 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = Categories/PrefixHeader.pch;
 				INFOPLIST_FILE = Categories/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.luo.Categories;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Debug;
 		};
@@ -353,10 +364,13 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = Categories/PrefixHeader.pch;
 				INFOPLIST_FILE = Categories/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.luo.Categories;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Release;
 		};
