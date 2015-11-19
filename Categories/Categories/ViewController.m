@@ -10,6 +10,7 @@
 #import "UIImage+TintColor.h"
 #import "UIView+CustomBorder.h"
 #import "UIView+AutoLayout.h"
+#import "DXAlertView.h"
 
 @interface ViewController ()
 
@@ -34,7 +35,6 @@
     [imageView addRightBorderWithColor:[UIColor redColor] width:10 excludePoint:10 edgeType:ExcludeAllPoint];
     
     
-    
 //    UIView *view1 = [UIView autoLayoutView];
 //    view1.backgroundColor = [UIColor purpleColor];
 //    [self.view addSubview:view1];
@@ -44,6 +44,11 @@
 //    [view1 addTopBorderWithColor:[UIColor orangeColor] width:10 excludePoint:30 edgeType:ExcludeAllPoint];
 //    [view1 addLeftBorderWithColor:[UIColor grayColor] width:10 excludePoint:30 edgeType:ExcludeAllPoint];
 //    [view1 addRightBorderWithColor:[UIColor redColor] width:10 excludePoint:30 edgeType:ExcludeAllPoint];
+}
+- (IBAction)buttonAction:(id)sender {
+    DXAlertView *alertView = [[DXAlertView alloc] initWithTitle:@"title" contentText:@"dxalertView" leftButtonTitle:@"left" rightButtonTitle:@"right"];
+    [alertView show];
+
 }
 
 - (void)didReceiveMemoryWarning {
