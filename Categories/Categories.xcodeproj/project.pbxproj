@@ -10,11 +10,11 @@
 		6C15A2441C0450F400A7C0E1 /* LICENCE.txt in Resources */ = {isa = PBXBuildFile; fileRef = 6C15A2401C0450F400A7C0E1 /* LICENCE.txt */; };
 		6C15A2451C0450F400A7C0E1 /* Reachability.m in Sources */ = {isa = PBXBuildFile; fileRef = 6C15A2421C0450F400A7C0E1 /* Reachability.m */; };
 		6C15A2461C0450F400A7C0E1 /* README.md in Sources */ = {isa = PBXBuildFile; fileRef = 6C15A2431C0450F400A7C0E1 /* README.md */; };
-		6C15A24D1C04522000A7C0E1 /* NetWorkViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6C15A24A1C04522000A7C0E1 /* NetWorkViewController.m */; };
-		6C15A24E1C04522000A7C0E1 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6C15A24C1C04522000A7C0E1 /* ViewController.m */; };
-		6C15A2511C04524A00A7C0E1 /* UITestViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6C15A2501C04524A00A7C0E1 /* UITestViewController.m */; };
 		6C15A2571C0459FA00A7C0E1 /* MPNVoiceManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 6C15A2561C0459FA00A7C0E1 /* MPNVoiceManager.m */; };
-		6C15A25A1C045A8200A7C0E1 /* UtilsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6C15A2591C045A8200A7C0E1 /* UtilsViewController.m */; };
+		6C15A2711C045F7D00A7C0E1 /* NetWorkViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6C15A26A1C045F7D00A7C0E1 /* NetWorkViewController.m */; };
+		6C15A2721C045F7D00A7C0E1 /* UITestViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6C15A26C1C045F7D00A7C0E1 /* UITestViewController.m */; };
+		6C15A2731C045F7D00A7C0E1 /* UtilsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6C15A26E1C045F7D00A7C0E1 /* UtilsViewController.m */; };
+		6C15A2741C045F7D00A7C0E1 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6C15A2701C045F7D00A7C0E1 /* ViewController.m */; };
 		6CBD188E1BE8B45300D2BCB0 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 6CBD188D1BE8B45300D2BCB0 /* main.m */; };
 		6CBD18911BE8B45300D2BCB0 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 6CBD18901BE8B45300D2BCB0 /* AppDelegate.m */; };
 		6CBD18971BE8B45300D2BCB0 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6CBD18951BE8B45300D2BCB0 /* Main.storyboard */; };
@@ -39,16 +39,16 @@
 		6C15A2411C0450F400A7C0E1 /* Reachability.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Reachability.h; sourceTree = "<group>"; };
 		6C15A2421C0450F400A7C0E1 /* Reachability.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Reachability.m; sourceTree = "<group>"; };
 		6C15A2431C0450F400A7C0E1 /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
-		6C15A2491C04522000A7C0E1 /* NetWorkViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NetWorkViewController.h; sourceTree = "<group>"; };
-		6C15A24A1C04522000A7C0E1 /* NetWorkViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NetWorkViewController.m; sourceTree = "<group>"; };
-		6C15A24B1C04522000A7C0E1 /* ViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		6C15A24C1C04522000A7C0E1 /* ViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
-		6C15A24F1C04524A00A7C0E1 /* UITestViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UITestViewController.h; sourceTree = "<group>"; };
-		6C15A2501C04524A00A7C0E1 /* UITestViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UITestViewController.m; sourceTree = "<group>"; };
 		6C15A2551C0459FA00A7C0E1 /* MPNVoiceManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MPNVoiceManager.h; sourceTree = "<group>"; };
 		6C15A2561C0459FA00A7C0E1 /* MPNVoiceManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MPNVoiceManager.m; sourceTree = "<group>"; };
-		6C15A2581C045A8200A7C0E1 /* UtilsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UtilsViewController.h; sourceTree = "<group>"; };
-		6C15A2591C045A8200A7C0E1 /* UtilsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UtilsViewController.m; sourceTree = "<group>"; };
+		6C15A2691C045F7D00A7C0E1 /* NetWorkViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NetWorkViewController.h; sourceTree = "<group>"; };
+		6C15A26A1C045F7D00A7C0E1 /* NetWorkViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NetWorkViewController.m; sourceTree = "<group>"; };
+		6C15A26B1C045F7D00A7C0E1 /* UITestViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UITestViewController.h; sourceTree = "<group>"; };
+		6C15A26C1C045F7D00A7C0E1 /* UITestViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UITestViewController.m; sourceTree = "<group>"; };
+		6C15A26D1C045F7D00A7C0E1 /* UtilsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UtilsViewController.h; sourceTree = "<group>"; };
+		6C15A26E1C045F7D00A7C0E1 /* UtilsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UtilsViewController.m; sourceTree = "<group>"; };
+		6C15A26F1C045F7D00A7C0E1 /* ViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		6C15A2701C045F7D00A7C0E1 /* ViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		6CBD18891BE8B45300D2BCB0 /* Categories.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Categories.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		6CBD188D1BE8B45300D2BCB0 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		6CBD188F1BE8B45300D2BCB0 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -113,22 +113,6 @@
 			path = Reachability;
 			sourceTree = "<group>";
 		};
-		6C15A2481C04522000A7C0E1 /* ViewControllers */ = {
-			isa = PBXGroup;
-			children = (
-				6C15A2491C04522000A7C0E1 /* NetWorkViewController.h */,
-				6C15A24A1C04522000A7C0E1 /* NetWorkViewController.m */,
-				6C15A24B1C04522000A7C0E1 /* ViewController.h */,
-				6C15A24C1C04522000A7C0E1 /* ViewController.m */,
-				6C15A24F1C04524A00A7C0E1 /* UITestViewController.h */,
-				6C15A2501C04524A00A7C0E1 /* UITestViewController.m */,
-				6C15A2581C045A8200A7C0E1 /* UtilsViewController.h */,
-				6C15A2591C045A8200A7C0E1 /* UtilsViewController.m */,
-			);
-			name = ViewControllers;
-			path = Categories/ViewControllers;
-			sourceTree = "<group>";
-		};
 		6C15A2541C0459DF00A7C0E1 /* Utils */ = {
 			isa = PBXGroup;
 			children = (
@@ -136,6 +120,21 @@
 				6C15A2561C0459FA00A7C0E1 /* MPNVoiceManager.m */,
 			);
 			path = Utils;
+			sourceTree = "<group>";
+		};
+		6C15A2681C045F7D00A7C0E1 /* ViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				6C15A2691C045F7D00A7C0E1 /* NetWorkViewController.h */,
+				6C15A26A1C045F7D00A7C0E1 /* NetWorkViewController.m */,
+				6C15A26B1C045F7D00A7C0E1 /* UITestViewController.h */,
+				6C15A26C1C045F7D00A7C0E1 /* UITestViewController.m */,
+				6C15A26D1C045F7D00A7C0E1 /* UtilsViewController.h */,
+				6C15A26E1C045F7D00A7C0E1 /* UtilsViewController.m */,
+				6C15A26F1C045F7D00A7C0E1 /* ViewController.h */,
+				6C15A2701C045F7D00A7C0E1 /* ViewController.m */,
+			);
+			path = ViewControllers;
 			sourceTree = "<group>";
 		};
 		6CBD18801BE8B45300D2BCB0 = {
@@ -161,7 +160,7 @@
 				6C15A23E1C0450C200A7C0E1 /* Libraries */,
 				6CBD18B51BE8C73B00D2BCB0 /* SupportFiles */,
 				6CBD18A31BE8B48300D2BCB0 /* Categories */,
-				6C15A2481C04522000A7C0E1 /* ViewControllers */,
+				6C15A2681C045F7D00A7C0E1 /* ViewControllers */,
 				6CCCEF3B1BFD731200E6F5B6 /* PrefixHeader.pch */,
 				6CCCEF3E1BFD763D00E6F5B6 /* LMConstant.h */,
 				6CCCEF3F1BFD763D00E6F5B6 /* LMConstant.m */,
@@ -292,24 +291,24 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				6C15A24E1C04522000A7C0E1 /* ViewController.m in Sources */,
 				6CBD18A61BE8B4CF00D2BCB0 /* UIImage+TintColor.m in Sources */,
 				6CBD18911BE8B45300D2BCB0 /* AppDelegate.m in Sources */,
 				6CBD18B11BE8B83B00D2BCB0 /* UIView+CustomBorder.m in Sources */,
 				6CBD188E1BE8B45300D2BCB0 /* main.m in Sources */,
 				6CCCEF2D1BFD5A4400E6F5B6 /* DXAlertView.m in Sources */,
+				6C15A2711C045F7D00A7C0E1 /* NetWorkViewController.m in Sources */,
 				6CCCEF2C1BFD5A4400E6F5B6 /* ALAssetsLibrary+CustomPhotoAlbum.m in Sources */,
 				6CCCEF2F1BFD5A4400E6F5B6 /* UIImageView+Letters.m in Sources */,
-				6C15A25A1C045A8200A7C0E1 /* UtilsViewController.m in Sources */,
 				6CCCEF401BFD763D00E6F5B6 /* LMConstant.m in Sources */,
 				6CBD18B41BE8BC7800D2BCB0 /* UIView+AutoLayout.m in Sources */,
-				6C15A2511C04524A00A7C0E1 /* UITestViewController.m in Sources */,
+				6C15A2721C045F7D00A7C0E1 /* UITestViewController.m in Sources */,
 				6C15A2451C0450F400A7C0E1 /* Reachability.m in Sources */,
 				6C15A2461C0450F400A7C0E1 /* README.md in Sources */,
 				6C15A2571C0459FA00A7C0E1 /* MPNVoiceManager.m in Sources */,
-				6C15A24D1C04522000A7C0E1 /* NetWorkViewController.m in Sources */,
+				6C15A2741C045F7D00A7C0E1 /* ViewController.m in Sources */,
 				6CCCEF301BFD5A4400E6F5B6 /* UIScrollView+DXRefresh.m in Sources */,
 				6CBD18BB1BE8C96A00D2BCB0 /* NSObject+MKBlockTimer.m in Sources */,
+				6C15A2731C045F7D00A7C0E1 /* UtilsViewController.m in Sources */,
 				6CBD18AE1BE8B6FD00D2BCB0 /* UIImage+Utils.m in Sources */,
 				6CBD18B81BE8C8D800D2BCB0 /* UIBarButtonItem+Custom.m in Sources */,
 			);
