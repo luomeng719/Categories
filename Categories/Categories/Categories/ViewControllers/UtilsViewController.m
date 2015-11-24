@@ -17,6 +17,7 @@
 
 - (void)viewDidLoad {
     [super viewDidLoad];
+    self.navigationItem.title = NSLocalizedString(@"about utils", @"title");
     // Do any additional setup after loading the view.
 }
 
