@@ -15,6 +15,7 @@
 		6C15A2721C045F7D00A7C0E1 /* UITestViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6C15A26C1C045F7D00A7C0E1 /* UITestViewController.m */; };
 		6C15A2731C045F7D00A7C0E1 /* UtilsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6C15A26E1C045F7D00A7C0E1 /* UtilsViewController.m */; };
 		6C15A2741C045F7D00A7C0E1 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6C15A2701C045F7D00A7C0E1 /* ViewController.m */; };
+		6C15A2771C04629300A7C0E1 /* MPNEmailManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 6C15A2761C04629300A7C0E1 /* MPNEmailManager.m */; };
 		6CBD188E1BE8B45300D2BCB0 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 6CBD188D1BE8B45300D2BCB0 /* main.m */; };
 		6CBD18911BE8B45300D2BCB0 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 6CBD18901BE8B45300D2BCB0 /* AppDelegate.m */; };
 		6CBD18971BE8B45300D2BCB0 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6CBD18951BE8B45300D2BCB0 /* Main.storyboard */; };
@@ -49,6 +50,8 @@
 		6C15A26E1C045F7D00A7C0E1 /* UtilsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UtilsViewController.m; sourceTree = "<group>"; };
 		6C15A26F1C045F7D00A7C0E1 /* ViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
 		6C15A2701C045F7D00A7C0E1 /* ViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		6C15A2751C04629300A7C0E1 /* MPNEmailManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MPNEmailManager.h; sourceTree = "<group>"; };
+		6C15A2761C04629300A7C0E1 /* MPNEmailManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MPNEmailManager.m; sourceTree = "<group>"; };
 		6CBD18891BE8B45300D2BCB0 /* Categories.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Categories.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		6CBD188D1BE8B45300D2BCB0 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		6CBD188F1BE8B45300D2BCB0 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -116,6 +119,8 @@
 		6C15A2541C0459DF00A7C0E1 /* Utils */ = {
 			isa = PBXGroup;
 			children = (
+				6C15A2751C04629300A7C0E1 /* MPNEmailManager.h */,
+				6C15A2761C04629300A7C0E1 /* MPNEmailManager.m */,
 				6C15A2551C0459FA00A7C0E1 /* MPNVoiceManager.h */,
 				6C15A2561C0459FA00A7C0E1 /* MPNVoiceManager.m */,
 			);
@@ -302,6 +307,7 @@
 				6CCCEF401BFD763D00E6F5B6 /* LMConstant.m in Sources */,
 				6CBD18B41BE8BC7800D2BCB0 /* UIView+AutoLayout.m in Sources */,
 				6C15A2721C045F7D00A7C0E1 /* UITestViewController.m in Sources */,
+				6C15A2771C04629300A7C0E1 /* MPNEmailManager.m in Sources */,
 				6C15A2451C0450F400A7C0E1 /* Reachability.m in Sources */,
 				6C15A2461C0450F400A7C0E1 /* README.md in Sources */,
 				6C15A2571C0459FA00A7C0E1 /* MPNVoiceManager.m in Sources */,
