@@ -29,7 +29,7 @@
     return _manager;
 }
 
-- (void)openEmailInViewController:(UIViewController *)vc withSubject:(NSString *)subject EmailBody:(NSString *)emailBody {
+- (void)openEmailInViewController:(UIViewController *)vc withSubject:(NSString *)subject EmailBody:(NSString *)emailBody fromEmail:(NSString *)yourSupportEmail {
     if (![MFMailComposeViewController canSendMail]) {
         
         UIAlertView *alert = [[UIAlertView alloc]initWithTitle:NSLocalizedString(@"Error", @"")
@@ -47,7 +47,7 @@
     
     [_picker setSubject:subject];
     [_picker setMessageBody:emailBody isHTML:YES];
-    [_picker setToRecipients:@[@"here is your support email"]];
+    [_picker setToRecipients:@[yourSupportEmail]];
     
     [vc presentViewController:_picker animated:YES completion:nil];
 }

@@ -15,6 +15,7 @@
 
 - (void)openEmailInViewController:(UIViewController *)vc
                       withSubject:(NSString *)subject
-                        EmailBody:(NSString *)emailBody;
+                        EmailBody:(NSString *)emailBody
+                        fromEmail:(NSString *)yourSupportEmail;
 
 @end
