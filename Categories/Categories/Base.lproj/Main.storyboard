@@ -70,12 +70,21 @@
                                     <segue destination="lSY-02-n4C" kind="show" id="BCR-wu-YPq"/>
                                 </connections>
                             </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="NMi-KW-DC8">
+                                <rect key="frame" x="458.5" y="174" width="102" height="30"/>
+                                <state key="normal" title="Animation Test"/>
+                                <connections>
+                                    <segue destination="wkX-8o-quS" kind="show" id="3p3-n3-vHl"/>
+                                </connections>
+                            </button>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
                         <constraints>
+                            <constraint firstItem="NMi-KW-DC8" firstAttribute="top" secondItem="eJp-SE-9nb" secondAttribute="bottom" constant="28" id="6EO-Ww-bg3"/>
                             <constraint firstItem="eJp-SE-9nb" firstAttribute="top" secondItem="y3c-jy-aDJ" secondAttribute="bottom" constant="52" id="6Lq-JC-laN"/>
                             <constraint firstItem="hfP-GN-A9F" firstAttribute="top" secondItem="dF2-1q-BdX" secondAttribute="bottom" constant="28" id="7eZ-XC-LbL"/>
                             <constraint firstAttribute="trailing" secondItem="eJp-SE-9nb" secondAttribute="trailing" constant="45" id="aTE-sD-yjG"/>
+                            <constraint firstItem="NMi-KW-DC8" firstAttribute="centerX" secondItem="eJp-SE-9nb" secondAttribute="centerX" id="jFC-Qp-d4J"/>
                             <constraint firstItem="hfP-GN-A9F" firstAttribute="leading" secondItem="dF2-1q-BdX" secondAttribute="leading" id="kvh-UT-KTx"/>
                             <constraint firstItem="dF2-1q-BdX" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leading" constant="37" id="lac-Od-jGS"/>
                             <constraint firstItem="dF2-1q-BdX" firstAttribute="top" secondItem="y3c-jy-aDJ" secondAttribute="bottom" constant="52" id="lfQ-JL-dgK"/>
@@ -135,7 +144,69 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="Eeq-91-oMT" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="1640" y="-303"/>
+            <point key="canvasLocation" x="1648" y="-902"/>
+        </scene>
+        <!--Animatino View Controller-->
+        <scene sceneID="PBI-0Z-hND">
+            <objects>
+                <viewController id="wkX-8o-quS" customClass="POPAnimatinoViewController" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="apl-pT-z5V"/>
+                        <viewControllerLayoutGuide type="bottom" id="rLd-de-PGc"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="8mj-1Z-hGQ">
+                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ghn-w8-mvg">
+                                <rect key="frame" x="20" y="118" width="50" height="50"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="50" id="dDV-eA-mEM"/>
+                                    <constraint firstAttribute="height" constant="50" id="m4q-FO-OnH"/>
+                                </constraints>
+                                <state key="normal" title="Basic"/>
+                                <connections>
+                                    <action selector="basicAnimationAction:" destination="wkX-8o-quS" eventType="touchUpInside" id="w2M-EW-C2f"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="LKw-YS-cpH">
+                                <rect key="frame" x="275.5" y="172" width="50" height="50"/>
+                                <state key="normal" title="Decay"/>
+                                <connections>
+                                    <action selector="decayAnimationAction:" destination="wkX-8o-quS" eventType="touchUpInside" id="6Qk-o0-bGz"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="o2U-Xs-eDG">
+                                <rect key="frame" x="536" y="118" width="50" height="50"/>
+                                <state key="normal" title="Spring"/>
+                                <connections>
+                                    <action selector="springAnimationAction:" destination="wkX-8o-quS" eventType="touchUpInside" id="ohR-Dr-W5Z"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstAttribute="trailing" secondItem="o2U-Xs-eDG" secondAttribute="trailing" constant="14" id="1CM-Ja-0in"/>
+                            <constraint firstItem="ghn-w8-mvg" firstAttribute="leading" secondItem="8mj-1Z-hGQ" secondAttribute="leading" constant="20" id="5Gc-2K-Gb2"/>
+                            <constraint firstItem="o2U-Xs-eDG" firstAttribute="height" secondItem="ghn-w8-mvg" secondAttribute="height" id="5dJ-Fg-ukb"/>
+                            <constraint firstItem="LKw-YS-cpH" firstAttribute="width" secondItem="ghn-w8-mvg" secondAttribute="width" id="7LC-3o-pLT"/>
+                            <constraint firstItem="o2U-Xs-eDG" firstAttribute="width" secondItem="ghn-w8-mvg" secondAttribute="width" id="FGN-al-3RD"/>
+                            <constraint firstItem="ghn-w8-mvg" firstAttribute="top" secondItem="apl-pT-z5V" secondAttribute="bottom" constant="54" id="KPU-rq-1hM"/>
+                            <constraint firstItem="LKw-YS-cpH" firstAttribute="height" secondItem="ghn-w8-mvg" secondAttribute="height" id="QwI-oL-fkT"/>
+                            <constraint firstItem="LKw-YS-cpH" firstAttribute="top" secondItem="ghn-w8-mvg" secondAttribute="top" constant="54" id="aDE-gR-TYC"/>
+                            <constraint firstItem="o2U-Xs-eDG" firstAttribute="top" secondItem="LKw-YS-cpH" secondAttribute="top" constant="-54" id="g1r-RR-U84"/>
+                            <constraint firstItem="LKw-YS-cpH" firstAttribute="centerX" secondItem="8mj-1Z-hGQ" secondAttribute="centerX" id="iEQ-NC-K7r"/>
+                        </constraints>
+                    </view>
+                    <connections>
+                        <outlet property="basicBtn" destination="ghn-w8-mvg" id="drf-yz-36l"/>
+                        <outlet property="decayBtn" destination="LKw-YS-cpH" id="3qV-5r-fBq"/>
+                        <outlet property="springBtn" destination="o2U-Xs-eDG" id="VaU-7K-lEL"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="ncU-uh-5Rq" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1648" y="-236"/>
         </scene>
         <!--Navigation Controller-->
         <scene sceneID="SQT-oP-PSb">
