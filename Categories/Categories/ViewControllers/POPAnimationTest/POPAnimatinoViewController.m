@@ -13,6 +13,7 @@
 @property (weak, nonatomic) IBOutlet UIButton *basicBtn;
 @property (weak, nonatomic) IBOutlet UIButton *decayBtn;
 @property (weak, nonatomic) IBOutlet UIButton *springBtn;
+@property (weak, nonatomic) IBOutlet UIButton *rotationBtn;
 
 @end
 
@@ -40,6 +41,8 @@
     CGRect springBounce = self.springBtn.bounds;
     self.springBtn.layer.cornerRadius = springBounce.size.width / 2;
     self.springBtn.clipsToBounds = YES;
+    
+    self.rotationBtn.layer.anchorPoint = CGPointMake(0.5, 0);
 }
 
 - (IBAction)basicAnimationAction:(id)sender {
@@ -94,4 +97,34 @@
     NSLog(@"startTime:%@", [NSDate new]);
 
 }
+
+- (IBAction)rotationAnimationAction:(id)sender {
+    
+    POPSpringAnimation *springAnimation = [POPSpringAnimation animationWithPropertyNamed:kPOPLayerRotation];
+    springAnimation.toValue = @(2.8);
+    springAnimation.springBounciness = 20.0f;
+    springAnimation.springSpeed = 20.0f;
+    
+    [springAnimation setCompletionBlock:^(POPAnimation *anima, BOOL flag) {
+        POPSpringAnimation *backAnimation = [POPSpringAnimation animationWithPropertyNamed:kPOPLayerRotation];
+        backAnimation.toValue = @(-0.3);
+        backAnimation.springSpeed = 20.0f;
+        backAnimation.springBounciness = 20.0f;
+        [self.rotationBtn.layer pop_addAnimation:backAnimation forKey:@"backAnimation"];
+    }];
+    [self.rotationBtn.layer pop_addAnimation:springAnimation forKey:@"rotationAnimation"];
+    
+    
+//    CASpringAnimation *animation = [CASpringAnimation animationWithKeyPath:@"transform"];
+//    CATransform3D transform = self.rotationBtn.layer.transform;
+//    transform = CATransform3DRotate(transform, 2.6, 0.0, 0.0, 1.0);
+//    animation.toValue = [NSValue valueWithCATransform3D:transform];
+//    animation.damping = 300;
+//    animation.duration = 3;
+//    animation.stiffness = 30;
+////    self.rotationBtn.layer.transform = transform;
+//    [self.rotationBtn.layer addAnimation:animation forKey:@"transform"];
+    
+}
+
 @end

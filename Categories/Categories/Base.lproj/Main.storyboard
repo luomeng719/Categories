@@ -170,7 +170,7 @@
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="LKw-YS-cpH">
-                                <rect key="frame" x="275.5" y="172" width="50" height="50"/>
+                                <rect key="frame" x="275" y="172" width="50" height="50"/>
                                 <state key="normal" title="Decay"/>
                                 <connections>
                                     <action selector="decayAnimationAction:" destination="wkX-8o-quS" eventType="touchUpInside" id="6Qk-o0-bGz"/>
@@ -183,6 +183,18 @@
                                     <action selector="springAnimationAction:" destination="wkX-8o-quS" eventType="touchUpInside" id="ohR-Dr-W5Z"/>
                                 </connections>
                             </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="WX5-lM-asV">
+                                <rect key="frame" x="91" y="302" width="10" height="60"/>
+                                <color key="backgroundColor" red="0.87943734800995266" green="1" blue="0.11933677268607668" alpha="1" colorSpace="calibratedRGB"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="10" id="Y5j-Fg-nBP"/>
+                                    <constraint firstAttribute="height" constant="60" id="cVG-6F-k38"/>
+                                </constraints>
+                                <state key="normal" title="Rotation"/>
+                                <connections>
+                                    <action selector="rotationAnimationAction:" destination="wkX-8o-quS" eventType="touchUpInside" id="yk7-uu-K9V"/>
+                                </connections>
+                            </button>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                         <constraints>
@@ -190,9 +202,11 @@
                             <constraint firstItem="ghn-w8-mvg" firstAttribute="leading" secondItem="8mj-1Z-hGQ" secondAttribute="leading" constant="20" id="5Gc-2K-Gb2"/>
                             <constraint firstItem="o2U-Xs-eDG" firstAttribute="height" secondItem="ghn-w8-mvg" secondAttribute="height" id="5dJ-Fg-ukb"/>
                             <constraint firstItem="LKw-YS-cpH" firstAttribute="width" secondItem="ghn-w8-mvg" secondAttribute="width" id="7LC-3o-pLT"/>
+                            <constraint firstItem="WX5-lM-asV" firstAttribute="leading" secondItem="8mj-1Z-hGQ" secondAttribute="leading" constant="91" id="CT4-TL-QMx"/>
                             <constraint firstItem="o2U-Xs-eDG" firstAttribute="width" secondItem="ghn-w8-mvg" secondAttribute="width" id="FGN-al-3RD"/>
                             <constraint firstItem="ghn-w8-mvg" firstAttribute="top" secondItem="apl-pT-z5V" secondAttribute="bottom" constant="54" id="KPU-rq-1hM"/>
                             <constraint firstItem="LKw-YS-cpH" firstAttribute="height" secondItem="ghn-w8-mvg" secondAttribute="height" id="QwI-oL-fkT"/>
+                            <constraint firstItem="WX5-lM-asV" firstAttribute="top" secondItem="apl-pT-z5V" secondAttribute="bottom" constant="238" id="WhB-q9-TYn"/>
                             <constraint firstItem="LKw-YS-cpH" firstAttribute="top" secondItem="ghn-w8-mvg" secondAttribute="top" constant="54" id="aDE-gR-TYC"/>
                             <constraint firstItem="o2U-Xs-eDG" firstAttribute="top" secondItem="LKw-YS-cpH" secondAttribute="top" constant="-54" id="g1r-RR-U84"/>
                             <constraint firstItem="LKw-YS-cpH" firstAttribute="centerX" secondItem="8mj-1Z-hGQ" secondAttribute="centerX" id="iEQ-NC-K7r"/>
@@ -201,6 +215,7 @@
                     <connections>
                         <outlet property="basicBtn" destination="ghn-w8-mvg" id="drf-yz-36l"/>
                         <outlet property="decayBtn" destination="LKw-YS-cpH" id="3qV-5r-fBq"/>
+                        <outlet property="rotationBtn" destination="WX5-lM-asV" id="Pwy-DC-fGU"/>
                         <outlet property="springBtn" destination="o2U-Xs-eDG" id="VaU-7K-lEL"/>
                     </connections>
                 </viewController>
