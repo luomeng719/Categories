@@ -16,6 +16,7 @@
 		6C15A2731C045F7D00A7C0E1 /* UtilsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6C15A26E1C045F7D00A7C0E1 /* UtilsViewController.m */; };
 		6C15A2741C045F7D00A7C0E1 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6C15A2701C045F7D00A7C0E1 /* ViewController.m */; };
 		6C15A2771C04629300A7C0E1 /* MPNEmailManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 6C15A2761C04629300A7C0E1 /* MPNEmailManager.m */; };
+		6C80B9201C10451A0032D0B4 /* LMAudioManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 6C80B91F1C10451A0032D0B4 /* LMAudioManager.m */; };
 		6CBD188E1BE8B45300D2BCB0 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 6CBD188D1BE8B45300D2BCB0 /* main.m */; };
 		6CBD18911BE8B45300D2BCB0 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 6CBD18901BE8B45300D2BCB0 /* AppDelegate.m */; };
 		6CBD18971BE8B45300D2BCB0 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6CBD18951BE8B45300D2BCB0 /* Main.storyboard */; };
@@ -74,6 +75,8 @@
 		6C15A2701C045F7D00A7C0E1 /* ViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		6C15A2751C04629300A7C0E1 /* MPNEmailManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MPNEmailManager.h; sourceTree = "<group>"; };
 		6C15A2761C04629300A7C0E1 /* MPNEmailManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MPNEmailManager.m; sourceTree = "<group>"; };
+		6C80B91E1C10451A0032D0B4 /* LMAudioManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LMAudioManager.h; sourceTree = "<group>"; };
+		6C80B91F1C10451A0032D0B4 /* LMAudioManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LMAudioManager.m; sourceTree = "<group>"; };
 		6CBD18891BE8B45300D2BCB0 /* Categories.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Categories.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		6CBD188D1BE8B45300D2BCB0 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		6CBD188F1BE8B45300D2BCB0 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -199,6 +202,8 @@
 		6C15A2541C0459DF00A7C0E1 /* Utils */ = {
 			isa = PBXGroup;
 			children = (
+				6C80B91E1C10451A0032D0B4 /* LMAudioManager.h */,
+				6C80B91F1C10451A0032D0B4 /* LMAudioManager.m */,
 				6C15A2751C04629300A7C0E1 /* MPNEmailManager.h */,
 				6C15A2761C04629300A7C0E1 /* MPNEmailManager.m */,
 				6C15A2551C0459FA00A7C0E1 /* MPNVoiceManager.h */,
@@ -466,6 +471,7 @@
 				6CBD18911BE8B45300D2BCB0 /* AppDelegate.m in Sources */,
 				6CBD18B11BE8B83B00D2BCB0 /* UIView+CustomBorder.m in Sources */,
 				6CBD188E1BE8B45300D2BCB0 /* main.m in Sources */,
+				6C80B9201C10451A0032D0B4 /* LMAudioManager.m in Sources */,
 				6CCF4C691C06FDD100209DD9 /* POPBasicAnimation.mm in Sources */,
 				6CCCEF2D1BFD5A4400E6F5B6 /* DXAlertView.m in Sources */,
 				6CCF4C6B1C06FDD100209DD9 /* POPCustomAnimation.mm in Sources */,
