@@ -25,6 +25,23 @@ static NSString * const kRecevingMessageName = @"sendVoice.mp3";
     return manager;
 }
 
+#pragma mark - 震动/播放系统声音
+/**
+ * 震动一次
+ */
+- (void)playVibrate {
+    AudioServicesPlaySystemSound(kSystemSoundID_Vibrate);
+}
+
+/**
+ * 播放一次自定义声音
+ */
+- (void)playSoundWithSoundName:(NSString *)soundName {
+    NSURL *url = [[NSBundle mainBundle] URLForResource:soundName withExtension:nil];
+    AudioServicesCreateSystemSoundID((__bridge CFURLRef)url, &soundId);
+    AudioServicesPlaySystemSound(soundId);
+}
+
 #pragma mark - 持续震动/响铃
 void soundCompleteCallback(SystemSoundID sound,void * clientData) {
     [NSThread sleepForTimeInterval:0.6];
@@ -39,7 +56,6 @@ void vibrateCompleteCallback(SystemSoundID soundID, void * clientData) {
 /**
  *  持续震动
  */
-
 - (void)playVibrateAroundForIncommingCall {
     // block crash on ios8.4
 //    AudioServicesAddSystemSoundCompletion(kSystemSoundID_Vibrate, NULL, NULL, soundCompleteCallback, NULL);
