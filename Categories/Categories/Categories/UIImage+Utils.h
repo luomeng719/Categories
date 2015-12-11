@@ -46,4 +46,8 @@ typedef NS_ENUM(NSInteger, GradientdDirection) {
 /** tabbar 获取原图片，否则蓝色*/
 + (UIImage *)originalImageNamed:(NSString *)name;
 
+/** 
+ * 在给定区域内等比例缩放图片
+ */
+- (UIImage*)scaleToSize:(CGSize)size;
 @end
