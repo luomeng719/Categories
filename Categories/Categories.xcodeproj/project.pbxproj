@@ -56,6 +56,8 @@
 		6CCF4C711C06FDD100209DD9 /* POPSpringAnimation.mm in Sources */ = {isa = PBXBuildFile; fileRef = 6CCF4C551C06FDD100209DD9 /* POPSpringAnimation.mm */; };
 		6CCF4C721C06FDD100209DD9 /* POPVector.mm in Sources */ = {isa = PBXBuildFile; fileRef = 6CCF4C591C06FDD100209DD9 /* POPVector.mm */; };
 		6CCF4C731C06FDD100209DD9 /* TransformationMatrix.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 6CCF4C5C1C06FDD100209DD9 /* TransformationMatrix.cpp */; };
+		6CEF8BA11C2A70C40062C33C /* NSDeviceHelper.m in Sources */ = {isa = PBXBuildFile; fileRef = 6CEF8B9E1C2A70C40062C33C /* NSDeviceHelper.m */; };
+		6CEF8BA21C2A70C40062C33C /* NSOpenUDID.m in Sources */ = {isa = PBXBuildFile; fileRef = 6CEF8BA01C2A70C40062C33C /* NSOpenUDID.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -166,6 +168,10 @@
 		6CCF4C5C1C06FDD100209DD9 /* TransformationMatrix.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = TransformationMatrix.cpp; sourceTree = "<group>"; };
 		6CCF4C5D1C06FDD100209DD9 /* TransformationMatrix.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TransformationMatrix.h; sourceTree = "<group>"; };
 		6CCF4C5E1C06FDD100209DD9 /* UnitBezier.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UnitBezier.h; sourceTree = "<group>"; };
+		6CEF8B9D1C2A70C40062C33C /* NSDeviceHelper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NSDeviceHelper.h; sourceTree = "<group>"; };
+		6CEF8B9E1C2A70C40062C33C /* NSDeviceHelper.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NSDeviceHelper.m; sourceTree = "<group>"; };
+		6CEF8B9F1C2A70C40062C33C /* NSOpenUDID.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NSOpenUDID.h; sourceTree = "<group>"; };
+		6CEF8BA01C2A70C40062C33C /* NSOpenUDID.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NSOpenUDID.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -202,6 +208,7 @@
 		6C15A2541C0459DF00A7C0E1 /* Utils */ = {
 			isa = PBXGroup;
 			children = (
+				6CEF8B9C1C2A70C40062C33C /* DeviceHelper */,
 				6C80B91E1C10451A0032D0B4 /* LMAudioManager.h */,
 				6C80B91F1C10451A0032D0B4 /* LMAudioManager.m */,
 				6C15A2751C04629300A7C0E1 /* MPNEmailManager.h */,
@@ -389,6 +396,17 @@
 			path = WebCore;
 			sourceTree = "<group>";
 		};
+		6CEF8B9C1C2A70C40062C33C /* DeviceHelper */ = {
+			isa = PBXGroup;
+			children = (
+				6CEF8B9D1C2A70C40062C33C /* NSDeviceHelper.h */,
+				6CEF8B9E1C2A70C40062C33C /* NSDeviceHelper.m */,
+				6CEF8B9F1C2A70C40062C33C /* NSOpenUDID.h */,
+				6CEF8BA01C2A70C40062C33C /* NSOpenUDID.m */,
+			);
+			path = DeviceHelper;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -478,6 +496,7 @@
 				6C15A2711C045F7D00A7C0E1 /* NetWorkViewController.m in Sources */,
 				6CCF4C711C06FDD100209DD9 /* POPSpringAnimation.mm in Sources */,
 				6CCF4C6C1C06FDD100209DD9 /* POPDecayAnimation.mm in Sources */,
+				6CEF8BA11C2A70C40062C33C /* NSDeviceHelper.m in Sources */,
 				6CCF4C631C06FDD100209DD9 /* POPAnimation.mm in Sources */,
 				6CCCEF2C1BFD5A4400E6F5B6 /* ALAssetsLibrary+CustomPhotoAlbum.m in Sources */,
 				6CCF4C671C06FDD100209DD9 /* POPAnimationTracer.mm in Sources */,
@@ -486,6 +505,7 @@
 				6CCCEF401BFD763D00E6F5B6 /* LMConstant.m in Sources */,
 				6CBD18B41BE8BC7800D2BCB0 /* UIView+AutoLayout.m in Sources */,
 				6C15A2721C045F7D00A7C0E1 /* UITestViewController.m in Sources */,
+				6CEF8BA21C2A70C40062C33C /* NSOpenUDID.m in Sources */,
 				6CCF4C6F1C06FDD100209DD9 /* POPMath.mm in Sources */,
 				6C15A2771C04629300A7C0E1 /* MPNEmailManager.m in Sources */,
 				6C15A2451C0450F400A7C0E1 /* Reachability.m in Sources */,
