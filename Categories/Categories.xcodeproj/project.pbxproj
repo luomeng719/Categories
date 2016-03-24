@@ -29,6 +29,7 @@
 		6CBD18B41BE8BC7800D2BCB0 /* UIView+AutoLayout.m in Sources */ = {isa = PBXBuildFile; fileRef = 6CBD18B31BE8BC7800D2BCB0 /* UIView+AutoLayout.m */; };
 		6CBD18B81BE8C8D800D2BCB0 /* UIBarButtonItem+Custom.m in Sources */ = {isa = PBXBuildFile; fileRef = 6CBD18B71BE8C8D800D2BCB0 /* UIBarButtonItem+Custom.m */; };
 		6CBD18BB1BE8C96A00D2BCB0 /* NSObject+MKBlockTimer.m in Sources */ = {isa = PBXBuildFile; fileRef = 6CBD18BA1BE8C96A00D2BCB0 /* NSObject+MKBlockTimer.m */; };
+		6CC2B7F91CA39F0A00744F25 /* FontSampleViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6CC2B7F81CA39F0A00744F25 /* FontSampleViewController.m */; };
 		6CCCEF2C1BFD5A4400E6F5B6 /* ALAssetsLibrary+CustomPhotoAlbum.m in Sources */ = {isa = PBXBuildFile; fileRef = 6CCCEF231BFD5A4400E6F5B6 /* ALAssetsLibrary+CustomPhotoAlbum.m */; };
 		6CCCEF2D1BFD5A4400E6F5B6 /* DXAlertView.m in Sources */ = {isa = PBXBuildFile; fileRef = 6CCCEF251BFD5A4400E6F5B6 /* DXAlertView.m */; };
 		6CCCEF2F1BFD5A4400E6F5B6 /* UIImageView+Letters.m in Sources */ = {isa = PBXBuildFile; fileRef = 6CCCEF291BFD5A4400E6F5B6 /* UIImageView+Letters.m */; };
@@ -100,6 +101,8 @@
 		6CBD18B71BE8C8D800D2BCB0 /* UIBarButtonItem+Custom.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIBarButtonItem+Custom.m"; sourceTree = "<group>"; };
 		6CBD18B91BE8C96A00D2BCB0 /* NSObject+MKBlockTimer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSObject+MKBlockTimer.h"; sourceTree = "<group>"; };
 		6CBD18BA1BE8C96A00D2BCB0 /* NSObject+MKBlockTimer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSObject+MKBlockTimer.m"; sourceTree = "<group>"; };
+		6CC2B7F71CA39F0A00744F25 /* FontSampleViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FontSampleViewController.h; sourceTree = "<group>"; };
+		6CC2B7F81CA39F0A00744F25 /* FontSampleViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FontSampleViewController.m; sourceTree = "<group>"; };
 		6CCCEF221BFD5A4400E6F5B6 /* ALAssetsLibrary+CustomPhotoAlbum.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "ALAssetsLibrary+CustomPhotoAlbum.h"; sourceTree = "<group>"; };
 		6CCCEF231BFD5A4400E6F5B6 /* ALAssetsLibrary+CustomPhotoAlbum.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "ALAssetsLibrary+CustomPhotoAlbum.m"; sourceTree = "<group>"; };
 		6CCCEF241BFD5A4400E6F5B6 /* DXAlertView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DXAlertView.h; sourceTree = "<group>"; };
@@ -231,6 +234,8 @@
 				6C15A26E1C045F7D00A7C0E1 /* UtilsViewController.m */,
 				6C15A26F1C045F7D00A7C0E1 /* ViewController.h */,
 				6C15A2701C045F7D00A7C0E1 /* ViewController.m */,
+				6CC2B7F71CA39F0A00744F25 /* FontSampleViewController.h */,
+				6CC2B7F81CA39F0A00744F25 /* FontSampleViewController.m */,
 			);
 			path = ViewControllers;
 			sourceTree = "<group>";
@@ -483,6 +488,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				6CBD18A61BE8B4CF00D2BCB0 /* UIImage+TintColor.m in Sources */,
+				6CC2B7F91CA39F0A00744F25 /* FontSampleViewController.m in Sources */,
 				6CCF4C641C06FDD100209DD9 /* POPAnimationEvent.mm in Sources */,
 				6CCF4C6E1C06FDD100209DD9 /* POPLayerExtras.mm in Sources */,
 				6CCF4C701C06FDD100209DD9 /* POPPropertyAnimation.mm in Sources */,
