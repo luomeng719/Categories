@@ -30,6 +30,7 @@
 		6CBD18B81BE8C8D800D2BCB0 /* UIBarButtonItem+Custom.m in Sources */ = {isa = PBXBuildFile; fileRef = 6CBD18B71BE8C8D800D2BCB0 /* UIBarButtonItem+Custom.m */; };
 		6CBD18BB1BE8C96A00D2BCB0 /* NSObject+MKBlockTimer.m in Sources */ = {isa = PBXBuildFile; fileRef = 6CBD18BA1BE8C96A00D2BCB0 /* NSObject+MKBlockTimer.m */; };
 		6CC2B7F91CA39F0A00744F25 /* FontSampleViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6CC2B7F81CA39F0A00744F25 /* FontSampleViewController.m */; };
+		6CC63CEE1CBCEE5000F8AB21 /* Utils.m in Sources */ = {isa = PBXBuildFile; fileRef = 6CC63CED1CBCEE5000F8AB21 /* Utils.m */; };
 		6CCCEF2C1BFD5A4400E6F5B6 /* ALAssetsLibrary+CustomPhotoAlbum.m in Sources */ = {isa = PBXBuildFile; fileRef = 6CCCEF231BFD5A4400E6F5B6 /* ALAssetsLibrary+CustomPhotoAlbum.m */; };
 		6CCCEF2D1BFD5A4400E6F5B6 /* DXAlertView.m in Sources */ = {isa = PBXBuildFile; fileRef = 6CCCEF251BFD5A4400E6F5B6 /* DXAlertView.m */; };
 		6CCCEF2F1BFD5A4400E6F5B6 /* UIImageView+Letters.m in Sources */ = {isa = PBXBuildFile; fileRef = 6CCCEF291BFD5A4400E6F5B6 /* UIImageView+Letters.m */; };
@@ -58,7 +59,7 @@
 		6CCF4C721C06FDD100209DD9 /* POPVector.mm in Sources */ = {isa = PBXBuildFile; fileRef = 6CCF4C591C06FDD100209DD9 /* POPVector.mm */; };
 		6CCF4C731C06FDD100209DD9 /* TransformationMatrix.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 6CCF4C5C1C06FDD100209DD9 /* TransformationMatrix.cpp */; };
 		6CEF8BA11C2A70C40062C33C /* NSDeviceHelper.m in Sources */ = {isa = PBXBuildFile; fileRef = 6CEF8B9E1C2A70C40062C33C /* NSDeviceHelper.m */; };
-		6CEF8BA21C2A70C40062C33C /* NSOpenUDID.m in Sources */ = {isa = PBXBuildFile; fileRef = 6CEF8BA01C2A70C40062C33C /* NSOpenUDID.m */; };
+		6CEF8BA21C2A70C40062C33C /* NSOpenUDID.m in Sources */ = {isa = PBXBuildFile; fileRef = 6CEF8BA01C2A70C40062C33C /* NSOpenUDID.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -103,6 +104,8 @@
 		6CBD18BA1BE8C96A00D2BCB0 /* NSObject+MKBlockTimer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSObject+MKBlockTimer.m"; sourceTree = "<group>"; };
 		6CC2B7F71CA39F0A00744F25 /* FontSampleViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FontSampleViewController.h; sourceTree = "<group>"; };
 		6CC2B7F81CA39F0A00744F25 /* FontSampleViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FontSampleViewController.m; sourceTree = "<group>"; };
+		6CC63CEC1CBCEE5000F8AB21 /* Utils.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Utils.h; sourceTree = "<group>"; };
+		6CC63CED1CBCEE5000F8AB21 /* Utils.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Utils.m; sourceTree = "<group>"; };
 		6CCCEF221BFD5A4400E6F5B6 /* ALAssetsLibrary+CustomPhotoAlbum.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "ALAssetsLibrary+CustomPhotoAlbum.h"; sourceTree = "<group>"; };
 		6CCCEF231BFD5A4400E6F5B6 /* ALAssetsLibrary+CustomPhotoAlbum.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "ALAssetsLibrary+CustomPhotoAlbum.m"; sourceTree = "<group>"; };
 		6CCCEF241BFD5A4400E6F5B6 /* DXAlertView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DXAlertView.h; sourceTree = "<group>"; };
@@ -218,6 +221,8 @@
 				6C15A2761C04629300A7C0E1 /* MPNEmailManager.m */,
 				6C15A2551C0459FA00A7C0E1 /* MPNVoiceManager.h */,
 				6C15A2561C0459FA00A7C0E1 /* MPNVoiceManager.m */,
+				6CC63CEC1CBCEE5000F8AB21 /* Utils.h */,
+				6CC63CED1CBCEE5000F8AB21 /* Utils.m */,
 			);
 			path = Utils;
 			sourceTree = "<group>";
@@ -505,6 +510,7 @@
 				6CEF8BA11C2A70C40062C33C /* NSDeviceHelper.m in Sources */,
 				6CCF4C631C06FDD100209DD9 /* POPAnimation.mm in Sources */,
 				6CCCEF2C1BFD5A4400E6F5B6 /* ALAssetsLibrary+CustomPhotoAlbum.m in Sources */,
+				6CC63CEE1CBCEE5000F8AB21 /* Utils.m in Sources */,
 				6CCF4C671C06FDD100209DD9 /* POPAnimationTracer.mm in Sources */,
 				6CCF4C6D1C06FDD100209DD9 /* POPGeometry.mm in Sources */,
 				6CCCEF2F1BFD5A4400E6F5B6 /* UIImageView+Letters.m in Sources */,
