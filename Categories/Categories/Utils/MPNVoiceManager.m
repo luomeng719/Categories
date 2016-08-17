@@ -74,13 +74,15 @@ void vibrateCompleteCallback(SystemSoundID soundID, void * clientData) {
  * 连续响铃
  */
 - (void)playSoundAroundForIncommingCall {
-    if (!self.isPlayingSound) {
-        _isPlayingSound = YES;
-        NSURL *url = [[NSBundle mainBundle] URLForResource:kInCommingCallVoiceName withExtension:nil];
-        AudioServicesCreateSystemSoundID((__bridge CFURLRef)url, &soundId);
-        AudioServicesAddSystemSoundCompletion(soundId, NULL, NULL, soundCompleteCallback, NULL);
-        AudioServicesPlaySystemSound(soundId);
-    }
+    dispatch_async(dispatch_get_global_queue(DISPATCH_QUEUE_PRIORITY_BACKGROUND, 0), ^{
+        if (!self.isPlayingSound) {
+            _isPlayingSound = YES;
+            NSURL *url = [[NSBundle mainBundle] URLForResource:kInCommingCallVoiceName withExtension:nil];
+            AudioServicesCreateSystemSoundID((__bridge CFURLRef)url, &soundId);
+            AudioServicesAddSystemSoundCompletion(soundId, NULL, NULL, soundCompleteCallback, NULL);
+            AudioServicesPlaySystemSound(soundId);
+        }
+    });
 }
 
 /**

@@ -16,6 +16,7 @@
 		6C15A2731C045F7D00A7C0E1 /* UtilsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6C15A26E1C045F7D00A7C0E1 /* UtilsViewController.m */; };
 		6C15A2741C045F7D00A7C0E1 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6C15A2701C045F7D00A7C0E1 /* ViewController.m */; };
 		6C15A2771C04629300A7C0E1 /* MPNEmailManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 6C15A2761C04629300A7C0E1 /* MPNEmailManager.m */; };
+		6C1F04541D6436C300E335B2 /* BlurImageView.m in Sources */ = {isa = PBXBuildFile; fileRef = 6C1F04531D6436C300E335B2 /* BlurImageView.m */; };
 		6C80B9201C10451A0032D0B4 /* LMAudioManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 6C80B91F1C10451A0032D0B4 /* LMAudioManager.m */; };
 		6CBD188E1BE8B45300D2BCB0 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 6CBD188D1BE8B45300D2BCB0 /* main.m */; };
 		6CBD18911BE8B45300D2BCB0 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 6CBD18901BE8B45300D2BCB0 /* AppDelegate.m */; };
@@ -79,6 +80,8 @@
 		6C15A2701C045F7D00A7C0E1 /* ViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		6C15A2751C04629300A7C0E1 /* MPNEmailManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MPNEmailManager.h; sourceTree = "<group>"; };
 		6C15A2761C04629300A7C0E1 /* MPNEmailManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MPNEmailManager.m; sourceTree = "<group>"; };
+		6C1F04521D6436C300E335B2 /* BlurImageView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BlurImageView.h; sourceTree = "<group>"; };
+		6C1F04531D6436C300E335B2 /* BlurImageView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BlurImageView.m; sourceTree = "<group>"; };
 		6C80B91E1C10451A0032D0B4 /* LMAudioManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LMAudioManager.h; sourceTree = "<group>"; };
 		6C80B91F1C10451A0032D0B4 /* LMAudioManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LMAudioManager.m; sourceTree = "<group>"; };
 		6CBD18891BE8B45300D2BCB0 /* Categories.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Categories.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -245,6 +248,15 @@
 			path = ViewControllers;
 			sourceTree = "<group>";
 		};
+		6C1F04511D6436B000E335B2 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				6C1F04521D6436C300E335B2 /* BlurImageView.h */,
+				6C1F04531D6436C300E335B2 /* BlurImageView.m */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
 		6CBD18801BE8B45300D2BCB0 = {
 			isa = PBXGroup;
 			children = (
@@ -269,6 +281,7 @@
 				6CBD18B51BE8C73B00D2BCB0 /* SupportFiles */,
 				6CBD18A31BE8B48300D2BCB0 /* Categories */,
 				6C15A2681C045F7D00A7C0E1 /* ViewControllers */,
+				6C1F04511D6436B000E335B2 /* Views */,
 				6CCCEF3B1BFD731200E6F5B6 /* PrefixHeader.pch */,
 				6CCCEF3E1BFD763D00E6F5B6 /* LMConstant.h */,
 				6CCCEF3F1BFD763D00E6F5B6 /* LMConstant.m */,
@@ -527,6 +540,7 @@
 				6CCF4C6A1C06FDD100209DD9 /* POPCGUtils.mm in Sources */,
 				6CCF4C251C06FCCA00209DD9 /* POPAnimatinoViewController.m in Sources */,
 				6CCF4C731C06FDD100209DD9 /* TransformationMatrix.cpp in Sources */,
+				6C1F04541D6436C300E335B2 /* BlurImageView.m in Sources */,
 				6CCF4C621C06FDD100209DD9 /* POPAnimatableProperty.mm in Sources */,
 				6C15A2461C0450F400A7C0E1 /* README.md in Sources */,
 				6C15A2571C0459FA00A7C0E1 /* MPNVoiceManager.m in Sources */,
