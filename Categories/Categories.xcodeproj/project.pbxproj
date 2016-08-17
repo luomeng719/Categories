@@ -17,6 +17,10 @@
 		6C15A2741C045F7D00A7C0E1 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6C15A2701C045F7D00A7C0E1 /* ViewController.m */; };
 		6C15A2771C04629300A7C0E1 /* MPNEmailManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 6C15A2761C04629300A7C0E1 /* MPNEmailManager.m */; };
 		6C1F04541D6436C300E335B2 /* BlurImageView.m in Sources */ = {isa = PBXBuildFile; fileRef = 6C1F04531D6436C300E335B2 /* BlurImageView.m */; };
+		6C1F045B1D643C4100E335B2 /* ADKDashedLineView.m in Sources */ = {isa = PBXBuildFile; fileRef = 6C1F04561D643C4100E335B2 /* ADKDashedLineView.m */; };
+		6C1F045C1D643C4100E335B2 /* ADKGradientView.m in Sources */ = {isa = PBXBuildFile; fileRef = 6C1F04581D643C4100E335B2 /* ADKGradientView.m */; };
+		6C1F045D1D643C4100E335B2 /* ADKModalMaskView.m in Sources */ = {isa = PBXBuildFile; fileRef = 6C1F045A1D643C4100E335B2 /* ADKModalMaskView.m */; };
+		6C1F04601D643C6800E335B2 /* UIView+ADKAnimationMacro.m in Sources */ = {isa = PBXBuildFile; fileRef = 6C1F045F1D643C6800E335B2 /* UIView+ADKAnimationMacro.m */; };
 		6C80B9201C10451A0032D0B4 /* LMAudioManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 6C80B91F1C10451A0032D0B4 /* LMAudioManager.m */; };
 		6CBD188E1BE8B45300D2BCB0 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 6CBD188D1BE8B45300D2BCB0 /* main.m */; };
 		6CBD18911BE8B45300D2BCB0 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 6CBD18901BE8B45300D2BCB0 /* AppDelegate.m */; };
@@ -82,6 +86,14 @@
 		6C15A2761C04629300A7C0E1 /* MPNEmailManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MPNEmailManager.m; sourceTree = "<group>"; };
 		6C1F04521D6436C300E335B2 /* BlurImageView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BlurImageView.h; sourceTree = "<group>"; };
 		6C1F04531D6436C300E335B2 /* BlurImageView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BlurImageView.m; sourceTree = "<group>"; };
+		6C1F04551D643C4100E335B2 /* ADKDashedLineView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ADKDashedLineView.h; sourceTree = "<group>"; };
+		6C1F04561D643C4100E335B2 /* ADKDashedLineView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ADKDashedLineView.m; sourceTree = "<group>"; };
+		6C1F04571D643C4100E335B2 /* ADKGradientView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ADKGradientView.h; sourceTree = "<group>"; };
+		6C1F04581D643C4100E335B2 /* ADKGradientView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ADKGradientView.m; sourceTree = "<group>"; };
+		6C1F04591D643C4100E335B2 /* ADKModalMaskView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ADKModalMaskView.h; sourceTree = "<group>"; };
+		6C1F045A1D643C4100E335B2 /* ADKModalMaskView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ADKModalMaskView.m; sourceTree = "<group>"; };
+		6C1F045E1D643C6800E335B2 /* UIView+ADKAnimationMacro.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+ADKAnimationMacro.h"; sourceTree = "<group>"; };
+		6C1F045F1D643C6800E335B2 /* UIView+ADKAnimationMacro.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+ADKAnimationMacro.m"; sourceTree = "<group>"; };
 		6C80B91E1C10451A0032D0B4 /* LMAudioManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LMAudioManager.h; sourceTree = "<group>"; };
 		6C80B91F1C10451A0032D0B4 /* LMAudioManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LMAudioManager.m; sourceTree = "<group>"; };
 		6CBD18891BE8B45300D2BCB0 /* Categories.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Categories.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -251,6 +263,12 @@
 		6C1F04511D6436B000E335B2 /* Views */ = {
 			isa = PBXGroup;
 			children = (
+				6C1F04551D643C4100E335B2 /* ADKDashedLineView.h */,
+				6C1F04561D643C4100E335B2 /* ADKDashedLineView.m */,
+				6C1F04571D643C4100E335B2 /* ADKGradientView.h */,
+				6C1F04581D643C4100E335B2 /* ADKGradientView.m */,
+				6C1F04591D643C4100E335B2 /* ADKModalMaskView.h */,
+				6C1F045A1D643C4100E335B2 /* ADKModalMaskView.m */,
 				6C1F04521D6436C300E335B2 /* BlurImageView.h */,
 				6C1F04531D6436C300E335B2 /* BlurImageView.m */,
 			);
@@ -325,6 +343,8 @@
 				6CBD18B71BE8C8D800D2BCB0 /* UIBarButtonItem+Custom.m */,
 				6CBD18B91BE8C96A00D2BCB0 /* NSObject+MKBlockTimer.h */,
 				6CBD18BA1BE8C96A00D2BCB0 /* NSObject+MKBlockTimer.m */,
+				6C1F045E1D643C6800E335B2 /* UIView+ADKAnimationMacro.h */,
+				6C1F045F1D643C6800E335B2 /* UIView+ADKAnimationMacro.m */,
 			);
 			path = Categories;
 			sourceTree = "<group>";
@@ -538,19 +558,23 @@
 				6CCF4C651C06FDD100209DD9 /* POPAnimationExtras.mm in Sources */,
 				6CCF4C721C06FDD100209DD9 /* POPVector.mm in Sources */,
 				6CCF4C6A1C06FDD100209DD9 /* POPCGUtils.mm in Sources */,
+				6C1F045B1D643C4100E335B2 /* ADKDashedLineView.m in Sources */,
 				6CCF4C251C06FCCA00209DD9 /* POPAnimatinoViewController.m in Sources */,
 				6CCF4C731C06FDD100209DD9 /* TransformationMatrix.cpp in Sources */,
 				6C1F04541D6436C300E335B2 /* BlurImageView.m in Sources */,
+				6C1F045C1D643C4100E335B2 /* ADKGradientView.m in Sources */,
 				6CCF4C621C06FDD100209DD9 /* POPAnimatableProperty.mm in Sources */,
 				6C15A2461C0450F400A7C0E1 /* README.md in Sources */,
 				6C15A2571C0459FA00A7C0E1 /* MPNVoiceManager.m in Sources */,
 				6C15A2741C045F7D00A7C0E1 /* ViewController.m in Sources */,
+				6C1F045D1D643C4100E335B2 /* ADKModalMaskView.m in Sources */,
 				6CCCEF301BFD5A4400E6F5B6 /* UIScrollView+DXRefresh.m in Sources */,
 				6CBD18BB1BE8C96A00D2BCB0 /* NSObject+MKBlockTimer.m in Sources */,
 				6C15A2731C045F7D00A7C0E1 /* UtilsViewController.m in Sources */,
 				6CBD18AE1BE8B6FD00D2BCB0 /* UIImage+Utils.m in Sources */,
 				6CBD18B81BE8C8D800D2BCB0 /* UIBarButtonItem+Custom.m in Sources */,
 				6CCF4C681C06FDD100209DD9 /* POPAnimator.mm in Sources */,
+				6C1F04601D643C6800E335B2 /* UIView+ADKAnimationMacro.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
