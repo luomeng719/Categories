@@ -1,0 +1,32 @@
+{
+  "DVTSourceControlWorkspaceBlueprintPrimaryRemoteRepositoryKey" : "F2FB42550398AE372F3335254D6C8A40A3840D7E",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyRepositoryLocationsKey" : {
+    "886f8186-a019-3a42-9a32-4364d30223f9++2315" : {
+
+    }
+  },
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyStatesKey" : {
+    "886f8186-a019-3a42-9a32-4364d30223f9++2315" : 0,
+    "F2FB42550398AE372F3335254D6C8A40A3840D7E" : 0
+  },
+  "DVTSourceControlWorkspaceBlueprintIdentifierKey" : "01F05EB5-D02B-4E22-9816-91362D0F2867",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyPathsKey" : {
+    "886f8186-a019-3a42-9a32-4364d30223f9++2315" : "Categories\/Categories\/Categories\/Utils\/Encryption1\/3DESiOS\/",
+    "F2FB42550398AE372F3335254D6C8A40A3840D7E" : "Categories\/"
+  },
+  "DVTSourceControlWorkspaceBlueprintNameKey" : "Categories",
+  "DVTSourceControlWorkspaceBlueprintVersion" : 204,
+  "DVTSourceControlWorkspaceBlueprintRelativePathToProjectKey" : "Categories\/Categories.xcodeproj",
+  "DVTSourceControlWorkspaceBlueprintRemoteRepositoriesKey" : [
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "svn:\/\/sinofreely.f3322.org\/dlcmios",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Subversion",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "886f8186-a019-3a42-9a32-4364d30223f9++2315"
+    },
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/github.com\/luomeng719\/Categories.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "F2FB42550398AE372F3335254D6C8A40A3840D7E"
+    }
+  ]
+}
