@@ -7,7 +7,6 @@
 //
 
 #import "UITestViewController.h"
-#import "DXAlertView.h"
 #import "UIImage+TintColor.h"
 #import "UIView+CustomBorder.h"
 #import "UIView+AutoLayout.h"
@@ -36,8 +35,7 @@
 }
 
 - (IBAction)dropAlertView:(id)sender {
-    DXAlertView *alertView = [[DXAlertView alloc] initWithTitle:@"title" contentText:@"dxalertView" leftButtonTitle:@"left" rightButtonTitle:@"right"];
-    [alertView show];
+
 }
 
 

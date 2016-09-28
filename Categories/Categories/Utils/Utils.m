@@ -7,6 +7,8 @@
 //
 
 #import "Utils.h"
+#import <sys/stat.h>
+#import <dlfcn.h>
 
 @implementation Utils
 
@@ -47,5 +49,62 @@
     animation.repeatCount = 10000;
     [view.layer addAnimation:animation forKey:@"viewRotate"];
 }
+
++ (BOOL)isJailbroken {
+    //#if !(TARGET_IPHONE_SIMULATOR)
+    if ([[NSFileManager defaultManager] fileExistsAtPath:@"/Applications/Cydia.app"]){
+        return YES;
+    }else if([[NSFileManager defaultManager] fileExistsAtPath:@"/Library/MobileSubstrate/MobileSubstrate.dylib"]){
+        return YES;
+    }else if([[NSFileManager defaultManager] fileExistsAtPath:@"/bin/bash"]){
+        return YES;
+    }else if([[NSFileManager defaultManager] fileExistsAtPath:@"/usr/sbin/sshd"]){
+        return YES;
+    }else if([[NSFileManager defaultManager] fileExistsAtPath:@"/etc/apt"]){
+        return YES;
+    }
+    
+    NSError *error;
+    NSString *stringToBeWritten = @"This is a test.";
+    [stringToBeWritten writeToFile:@"/private/jailbreak.txt" atomically:YES
+                          encoding:NSUTF8StringEncoding error:&error];
+    if(error==nil){
+        //Device is jailbroken
+        return YES;
+    } else {
+        [[NSFileManager defaultManager] removeItemAtPath:@"/private/jailbreak.txt" error:nil];
+    }
+    
+    if([[UIApplication sharedApplication] canOpenURL:[NSURL URLWithString:@"cydia://package/com.example.package"]]){
+        //Device is jailbroken
+        return YES;
+    }
+    
+    if ([[NSFileManager defaultManager] fileExistsAtPath:@"/User/Applications/"]) {
+        
+        NSLog(@"Device is jailbroken");
+        NSArray *applist = [[NSFileManager defaultManager] contentsOfDirectoryAtPath:@"/User/Applications/"
+                                                                               error:nil];
+        NSLog(@"applist = %@",applist);
+        
+        return YES;
+    }
+    
+    struct stat stat_info;
+    if (0 == stat("/Applications/Cydia.app", &stat_info)) {
+        return YES;
+    }
+    
+    
+    char *env = getenv("DYLD_INSERT_LIBRARIES");
+    if (env != NULL) {
+        return YES;
+    }
+    
+    //#endif
+    //All checks have failed. Most probably, the device is not jailbroken
+    return NO;
+}
+
 
 @end

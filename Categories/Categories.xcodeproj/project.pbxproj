@@ -37,9 +37,7 @@
 		6CC2B7F91CA39F0A00744F25 /* FontSampleViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6CC2B7F81CA39F0A00744F25 /* FontSampleViewController.m */; };
 		6CC63CEE1CBCEE5000F8AB21 /* Utils.m in Sources */ = {isa = PBXBuildFile; fileRef = 6CC63CED1CBCEE5000F8AB21 /* Utils.m */; };
 		6CCCEF2C1BFD5A4400E6F5B6 /* ALAssetsLibrary+CustomPhotoAlbum.m in Sources */ = {isa = PBXBuildFile; fileRef = 6CCCEF231BFD5A4400E6F5B6 /* ALAssetsLibrary+CustomPhotoAlbum.m */; };
-		6CCCEF2D1BFD5A4400E6F5B6 /* DXAlertView.m in Sources */ = {isa = PBXBuildFile; fileRef = 6CCCEF251BFD5A4400E6F5B6 /* DXAlertView.m */; };
 		6CCCEF2F1BFD5A4400E6F5B6 /* UIImageView+Letters.m in Sources */ = {isa = PBXBuildFile; fileRef = 6CCCEF291BFD5A4400E6F5B6 /* UIImageView+Letters.m */; };
-		6CCCEF301BFD5A4400E6F5B6 /* UIScrollView+DXRefresh.m in Sources */ = {isa = PBXBuildFile; fileRef = 6CCCEF2B1BFD5A4400E6F5B6 /* UIScrollView+DXRefresh.m */; };
 		6CCCEF401BFD763D00E6F5B6 /* LMConstant.m in Sources */ = {isa = PBXBuildFile; fileRef = 6CCCEF3F1BFD763D00E6F5B6 /* LMConstant.m */; };
 		6CCF4C251C06FCCA00209DD9 /* POPAnimatinoViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6CCF4C241C06FCCA00209DD9 /* POPAnimatinoViewController.m */; };
 		6CCF4C5F1C06FDD100209DD9 /* pop-ios-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 6CCF4C281C06FDD100209DD9 /* pop-ios-Info.plist */; };
@@ -72,6 +70,8 @@
 		6CD866271D7440F500395409 /* NSString+Base64.m in Sources */ = {isa = PBXBuildFile; fileRef = 6CD8661C1D7440F500395409 /* NSString+Base64.m */; };
 		6CD866281D7440F500395409 /* EncryManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 6CD8661E1D7440F500395409 /* EncryManager.m */; };
 		6CD866291D7440F500395409 /* MD5Util.m in Sources */ = {isa = PBXBuildFile; fileRef = 6CD866201D7440F500395409 /* MD5Util.m */; };
+		6CD96BCB1D9B7BFB00F76C66 /* CustomNavController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6CD96BCA1D9B7BFB00F76C66 /* CustomNavController.m */; };
+		6CD96BD41D9B9E0900F76C66 /* UIImageView+Util.m in Sources */ = {isa = PBXBuildFile; fileRef = 6CD96BD31D9B9E0900F76C66 /* UIImageView+Util.m */; };
 		6CEF8BA11C2A70C40062C33C /* NSDeviceHelper.m in Sources */ = {isa = PBXBuildFile; fileRef = 6CEF8B9E1C2A70C40062C33C /* NSDeviceHelper.m */; };
 		6CEF8BA21C2A70C40062C33C /* NSOpenUDID.m in Sources */ = {isa = PBXBuildFile; fileRef = 6CEF8BA01C2A70C40062C33C /* NSOpenUDID.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
 /* End PBXBuildFile section */
@@ -132,12 +132,8 @@
 		6CC63CED1CBCEE5000F8AB21 /* Utils.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Utils.m; sourceTree = "<group>"; };
 		6CCCEF221BFD5A4400E6F5B6 /* ALAssetsLibrary+CustomPhotoAlbum.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "ALAssetsLibrary+CustomPhotoAlbum.h"; sourceTree = "<group>"; };
 		6CCCEF231BFD5A4400E6F5B6 /* ALAssetsLibrary+CustomPhotoAlbum.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "ALAssetsLibrary+CustomPhotoAlbum.m"; sourceTree = "<group>"; };
-		6CCCEF241BFD5A4400E6F5B6 /* DXAlertView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DXAlertView.h; sourceTree = "<group>"; };
-		6CCCEF251BFD5A4400E6F5B6 /* DXAlertView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DXAlertView.m; sourceTree = "<group>"; };
 		6CCCEF281BFD5A4400E6F5B6 /* UIImageView+Letters.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImageView+Letters.h"; sourceTree = "<group>"; };
 		6CCCEF291BFD5A4400E6F5B6 /* UIImageView+Letters.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImageView+Letters.m"; sourceTree = "<group>"; };
-		6CCCEF2A1BFD5A4400E6F5B6 /* UIScrollView+DXRefresh.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIScrollView+DXRefresh.h"; sourceTree = "<group>"; };
-		6CCCEF2B1BFD5A4400E6F5B6 /* UIScrollView+DXRefresh.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIScrollView+DXRefresh.m"; sourceTree = "<group>"; };
 		6CCCEF3B1BFD731200E6F5B6 /* PrefixHeader.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PrefixHeader.pch; sourceTree = "<group>"; };
 		6CCCEF3E1BFD763D00E6F5B6 /* LMConstant.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LMConstant.h; sourceTree = "<group>"; };
 		6CCCEF3F1BFD763D00E6F5B6 /* LMConstant.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LMConstant.m; sourceTree = "<group>"; };
@@ -217,6 +213,10 @@
 		6CD8661E1D7440F500395409 /* EncryManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EncryManager.m; sourceTree = "<group>"; };
 		6CD8661F1D7440F500395409 /* MD5Util.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MD5Util.h; sourceTree = "<group>"; };
 		6CD866201D7440F500395409 /* MD5Util.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MD5Util.m; sourceTree = "<group>"; };
+		6CD96BC91D9B7BFB00F76C66 /* CustomNavController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CustomNavController.h; sourceTree = "<group>"; };
+		6CD96BCA1D9B7BFB00F76C66 /* CustomNavController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CustomNavController.m; sourceTree = "<group>"; };
+		6CD96BD21D9B9E0900F76C66 /* UIImageView+Util.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImageView+Util.h"; sourceTree = "<group>"; };
+		6CD96BD31D9B9E0900F76C66 /* UIImageView+Util.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImageView+Util.m"; sourceTree = "<group>"; };
 		6CEF8B9D1C2A70C40062C33C /* NSDeviceHelper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NSDeviceHelper.h; sourceTree = "<group>"; };
 		6CEF8B9E1C2A70C40062C33C /* NSDeviceHelper.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NSDeviceHelper.m; sourceTree = "<group>"; };
 		6CEF8B9F1C2A70C40062C33C /* NSOpenUDID.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NSOpenUDID.h; sourceTree = "<group>"; };
@@ -267,6 +267,8 @@
 				6C15A2561C0459FA00A7C0E1 /* MPNVoiceManager.m */,
 				6CC63CEC1CBCEE5000F8AB21 /* Utils.h */,
 				6CC63CED1CBCEE5000F8AB21 /* Utils.m */,
+				6CD96BC91D9B7BFB00F76C66 /* CustomNavController.h */,
+				6CD96BCA1D9B7BFB00F76C66 /* CustomNavController.m */,
 			);
 			path = Utils;
 			sourceTree = "<group>";
@@ -356,14 +358,12 @@
 			children = (
 				6CCCEF221BFD5A4400E6F5B6 /* ALAssetsLibrary+CustomPhotoAlbum.h */,
 				6CCCEF231BFD5A4400E6F5B6 /* ALAssetsLibrary+CustomPhotoAlbum.m */,
-				6CCCEF241BFD5A4400E6F5B6 /* DXAlertView.h */,
-				6CCCEF251BFD5A4400E6F5B6 /* DXAlertView.m */,
 				6CCCEF281BFD5A4400E6F5B6 /* UIImageView+Letters.h */,
 				6CCCEF291BFD5A4400E6F5B6 /* UIImageView+Letters.m */,
-				6CCCEF2A1BFD5A4400E6F5B6 /* UIScrollView+DXRefresh.h */,
-				6CCCEF2B1BFD5A4400E6F5B6 /* UIScrollView+DXRefresh.m */,
 				6CBD18A41BE8B4CF00D2BCB0 /* UIImage+TintColor.h */,
 				6CBD18A51BE8B4CF00D2BCB0 /* UIImage+TintColor.m */,
+				6CD96BD21D9B9E0900F76C66 /* UIImageView+Util.h */,
+				6CD96BD31D9B9E0900F76C66 /* UIImageView+Util.m */,
 				6CBD18AC1BE8B6FD00D2BCB0 /* UIImage+Utils.h */,
 				6CBD18AD1BE8B6FD00D2BCB0 /* UIImage+Utils.m */,
 				6CBD18AF1BE8B83B00D2BCB0 /* UIView+CustomBorder.h */,
@@ -607,11 +607,11 @@
 				6CBD188E1BE8B45300D2BCB0 /* main.m in Sources */,
 				6C80B9201C10451A0032D0B4 /* LMAudioManager.m in Sources */,
 				6CCF4C691C06FDD100209DD9 /* POPBasicAnimation.mm in Sources */,
-				6CCCEF2D1BFD5A4400E6F5B6 /* DXAlertView.m in Sources */,
 				6CCF4C6B1C06FDD100209DD9 /* POPCustomAnimation.mm in Sources */,
 				6C15A2711C045F7D00A7C0E1 /* NetWorkViewController.m in Sources */,
 				6CCF4C711C06FDD100209DD9 /* POPSpringAnimation.mm in Sources */,
 				6CCF4C6C1C06FDD100209DD9 /* POPDecayAnimation.mm in Sources */,
+				6CD96BCB1D9B7BFB00F76C66 /* CustomNavController.m in Sources */,
 				6CEF8BA11C2A70C40062C33C /* NSDeviceHelper.m in Sources */,
 				6CCF4C631C06FDD100209DD9 /* POPAnimation.mm in Sources */,
 				6CCCEF2C1BFD5A4400E6F5B6 /* ALAssetsLibrary+CustomPhotoAlbum.m in Sources */,
@@ -644,7 +644,6 @@
 				6C15A2571C0459FA00A7C0E1 /* MPNVoiceManager.m in Sources */,
 				6C15A2741C045F7D00A7C0E1 /* ViewController.m in Sources */,
 				6C1F045D1D643C4100E335B2 /* ADKModalMaskView.m in Sources */,
-				6CCCEF301BFD5A4400E6F5B6 /* UIScrollView+DXRefresh.m in Sources */,
 				6CD866251D7440F500395409 /* NSData+Base64.m in Sources */,
 				6CD866271D7440F500395409 /* NSString+Base64.m in Sources */,
 				6CD866261D7440F500395409 /* NSData+CommonCrypto.m in Sources */,
@@ -654,6 +653,7 @@
 				6CBD18B81BE8C8D800D2BCB0 /* UIBarButtonItem+Custom.m in Sources */,
 				6CD866241D7440F500395409 /* AES.m in Sources */,
 				6CCF4C681C06FDD100209DD9 /* POPAnimator.mm in Sources */,
+				6CD96BD41D9B9E0900F76C66 /* UIImageView+Util.m in Sources */,
 				6C1F04601D643C6800E335B2 /* UIView+ADKAnimationMacro.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
