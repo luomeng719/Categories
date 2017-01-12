@@ -28,7 +28,7 @@
 
 - (id)init {
     if (self = [super init]) {
-        self.encryKey = @"encryKey";
+        self.encryKey = @"encryKeyencryKey";
     }
     return self;
 }
