@@ -9,6 +9,8 @@
 #import "ViewController.h"
 #import "EncryManager.h"
 
+#import "NSString+AES256.h"
+
 #define JSON_STRING_WITH_OBJ(obj) (obj?[[NSString alloc]initWithData:[NSJSONSerialization dataWithJSONObject:obj options:kNilOptions error:nil] encoding:NSUTF8StringEncoding]:nil)
 #define JSON_OBJECT_WITH_STRING(string) (string?[NSJSONSerialization JSONObjectWithData: [string dataUsingEncoding:NSUTF8StringEncoding] options:kNilOptions error:nil]:nil)
 
@@ -44,9 +46,16 @@
                           @"name3": @"Do any addi",
                           };
     
+    dic = @{
+        @"sign": @"this is a string",
+        @"timeInterval": @([[NSDate date] timeIntervalSince1970]),
+        @"nothing": @"hehe"
+        };
+    
     NSString *string = JSON_STRING_WITH_OBJ(dic);
     
-    
+    string = @"sign=thisisastring&nothing=hehe";
+    NSLog(@"jsonString = %@", string);
     
     [self logExcuteTime:^{
         NSString *md52 = [[EncryManager sharedManager] md5_toMD5String:string];
@@ -56,6 +65,7 @@
     
     [self logExcuteTime:^{
         NSString *aesEncry = [[EncryManager sharedManager] aes_encryWithAES:string];
+        NSLog(@"aes Encry = %@", aesEncry);
         NSString *aesDecry = [[EncryManager sharedManager] aes_decryWithAES:aesEncry];
         NSDictionary *aesDic = JSON_OBJECT_WITH_STRING(aesDecry);
         NSLog(@"====================\nAES result = %@", aesDic);
@@ -69,6 +79,14 @@
         NSLog(@"==================\n DES result = %@", desDic);
         // 0.000327 0.000314
     } title:@"DES"];
+    
+    
+    NSLog(@"+++++++++++++++");
+    NSString *encry = [string aes256_encrypt:@"30313233343536373839414243444546"];
+    NSLog(@"-----> encry = %@", encry);
+    NSString *decry = [encry aes256_decrypt:@"30313233343536373839414243444546"];
+    NSLog(@"-----> decry = %@", decry);
+    NSLog(@"----------------");
     
 }
 

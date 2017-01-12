@@ -21,6 +21,8 @@
 		6C1F045C1D643C4100E335B2 /* ADKGradientView.m in Sources */ = {isa = PBXBuildFile; fileRef = 6C1F04581D643C4100E335B2 /* ADKGradientView.m */; };
 		6C1F045D1D643C4100E335B2 /* ADKModalMaskView.m in Sources */ = {isa = PBXBuildFile; fileRef = 6C1F045A1D643C4100E335B2 /* ADKModalMaskView.m */; };
 		6C1F04601D643C6800E335B2 /* UIView+ADKAnimationMacro.m in Sources */ = {isa = PBXBuildFile; fileRef = 6C1F045F1D643C6800E335B2 /* UIView+ADKAnimationMacro.m */; };
+		6C37608A1E1638FF006C07B8 /* NSString+AES256.m in Sources */ = {isa = PBXBuildFile; fileRef = 6C3760891E1638FF006C07B8 /* NSString+AES256.m */; };
+		6C37608D1E16394B006C07B8 /* NSData+AES256.m in Sources */ = {isa = PBXBuildFile; fileRef = 6C37608C1E16394B006C07B8 /* NSData+AES256.m */; };
 		6C80B9201C10451A0032D0B4 /* LMAudioManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 6C80B91F1C10451A0032D0B4 /* LMAudioManager.m */; };
 		6CBD188E1BE8B45300D2BCB0 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 6CBD188D1BE8B45300D2BCB0 /* main.m */; };
 		6CBD18911BE8B45300D2BCB0 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 6CBD18901BE8B45300D2BCB0 /* AppDelegate.m */; };
@@ -103,6 +105,10 @@
 		6C1F045A1D643C4100E335B2 /* ADKModalMaskView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ADKModalMaskView.m; sourceTree = "<group>"; };
 		6C1F045E1D643C6800E335B2 /* UIView+ADKAnimationMacro.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+ADKAnimationMacro.h"; sourceTree = "<group>"; };
 		6C1F045F1D643C6800E335B2 /* UIView+ADKAnimationMacro.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+ADKAnimationMacro.m"; sourceTree = "<group>"; };
+		6C3760881E1638FF006C07B8 /* NSString+AES256.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+AES256.h"; sourceTree = "<group>"; };
+		6C3760891E1638FF006C07B8 /* NSString+AES256.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+AES256.m"; sourceTree = "<group>"; };
+		6C37608B1E16394B006C07B8 /* NSData+AES256.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSData+AES256.h"; sourceTree = "<group>"; };
+		6C37608C1E16394B006C07B8 /* NSData+AES256.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSData+AES256.m"; sourceTree = "<group>"; };
 		6C80B91E1C10451A0032D0B4 /* LMAudioManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LMAudioManager.h; sourceTree = "<group>"; };
 		6C80B91F1C10451A0032D0B4 /* LMAudioManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LMAudioManager.m; sourceTree = "<group>"; };
 		6CBD18891BE8B45300D2BCB0 /* Categories.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Categories.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -269,6 +275,10 @@
 				6CC63CED1CBCEE5000F8AB21 /* Utils.m */,
 				6CD96BC91D9B7BFB00F76C66 /* CustomNavController.h */,
 				6CD96BCA1D9B7BFB00F76C66 /* CustomNavController.m */,
+				6C3760881E1638FF006C07B8 /* NSString+AES256.h */,
+				6C3760891E1638FF006C07B8 /* NSString+AES256.m */,
+				6C37608B1E16394B006C07B8 /* NSData+AES256.h */,
+				6C37608C1E16394B006C07B8 /* NSData+AES256.m */,
 			);
 			path = Utils;
 			sourceTree = "<group>";
@@ -636,11 +646,13 @@
 				6CCF4C251C06FCCA00209DD9 /* POPAnimatinoViewController.m in Sources */,
 				6CCF4C731C06FDD100209DD9 /* TransformationMatrix.cpp in Sources */,
 				6C1F04541D6436C300E335B2 /* BlurImageView.m in Sources */,
+				6C37608D1E16394B006C07B8 /* NSData+AES256.m in Sources */,
 				6C1F045C1D643C4100E335B2 /* ADKGradientView.m in Sources */,
 				6CCF4C621C06FDD100209DD9 /* POPAnimatableProperty.mm in Sources */,
 				6CD866291D7440F500395409 /* MD5Util.m in Sources */,
 				6C15A2461C0450F400A7C0E1 /* README.md in Sources */,
 				6CD866231D7440F500395409 /* NSString+NSReplace.m in Sources */,
+				6C37608A1E1638FF006C07B8 /* NSString+AES256.m in Sources */,
 				6C15A2571C0459FA00A7C0E1 /* MPNVoiceManager.m in Sources */,
 				6C15A2741C045F7D00A7C0E1 /* ViewController.m in Sources */,
 				6C1F045D1D643C4100E335B2 /* ADKModalMaskView.m in Sources */,
