@@ -20,4 +20,6 @@
 
 + (void)startRotateAnimation:(UIView *)view;
 
+- (NSUInteger)calculate;
+
 @end

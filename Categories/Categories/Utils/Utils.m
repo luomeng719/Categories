@@ -107,4 +107,17 @@
 }
 
 
+- (NSUInteger)calculate {
+    
+    // sqlite path (MagicalRecord store path)
+    NSURL *sqliteURL = nil;//[NSPersistentStore MR_urlForStoreName:@"MLCDBase.sqlite"];
+    NSLog(@"sqliteURL = %@", sqliteURL);
+    
+    NSUInteger sizeOfData = [[NSData dataWithContentsOfURL:sqliteURL] length];
+    NSLog(@"sizeOfDAta in bytes %lu",(unsigned long)sizeOfData);
+    
+    return sizeOfData;
+}
+
+
 @end

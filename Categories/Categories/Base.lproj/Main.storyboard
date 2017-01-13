@@ -186,7 +186,7 @@
                 </tableViewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="QqY-jd-JeS" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="1599" y="396"/>
+            <point key="canvasLocation" x="1750" y="470"/>
         </scene>
         <!--Net Work View Controller-->
         <scene sceneID="70W-I3-LXK">
